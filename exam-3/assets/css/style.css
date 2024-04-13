@@ -1,0 +1,29 @@
+:root {
+    --font: "Poppins", sans-serif;
+}
+
+body {
+    font-family: var(--font);
+}
+
+
+/* Blog Start */
+
+.blog::-webkit-scrollbar {
+    background-color: transparent;
+    width: 10px;
+}
+
+.blog::-webkit-scrollbar-thumb {
+    background-color: var(--bs-gray-900);
+    width: 10px;
+    border-radius: 50px;
+}
+
+.blog::-webkit-scrollbar-track {
+    background-color: transparent;
+    width: 10px;
+}
+
+
+/* Blog End */
